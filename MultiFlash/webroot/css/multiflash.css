@@ -1,0 +1,35 @@
+ul#MultiFlash{
+	margin-left:0px;
+}
+ul#MultiFlash li.error span{
+	background: url('/multi_flash/img/message_error_bg.png') repeat;
+}
+
+ul#MultiFlash li.info span{
+	background: url('/multi_flash/img/message_info_bg.png') repeat;
+}
+
+ul#MultiFlash li.success span{
+	background: url('/multi_flash/img/message_ok_bg.png') repeat;
+}
+
+ul#MultiFlash li.warning span{
+	background: url('/multi_flash/img/message_warning_bg.png') repeat;
+}
+ul#MultiFlash li span{
+	display:block;
+	padding:13px 20px;
+}
+ul#MultiFlash li {
+    display: block;
+	width:100%;
+    font-size: 120%;
+    margin: 1em 0;
+	-moz-box-shadow: 3px 3px 4px #d5d5d5;
+	-webkit-box-shadow: 3px 3px 4px #d5d5d5;
+	box-shadow: 3px 3px 4px #d5d5d5;
+	/* For IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#d5d5d5')";
+	/* For IE 5.5 - 7 */
+	filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=135, Color='#d5d5d5');
+}
